@@ -1,0 +1,28 @@
+$def with (error_message=False)
+
+<!-- templates/header.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">pyBoatnet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-text text-danger mx-auto text-center"> <!-- Added text-center class -->
+        $if error_message:
+            $:error_message
+        $else:
+            &nbsp; <!-- Placeholder to maintain spacing when no error message is present -->
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">C&C</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>

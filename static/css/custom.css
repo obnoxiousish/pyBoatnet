@@ -1,0 +1,101 @@
+/* Additional CSS */
+.input_user, .input_pass {
+    background: #2c2c33 !important; /* pastel grey */
+    color: #cfcfcf !important; /* pastel grey */
+    border-color: #403c3c !important; /* darker grey for border */
+}
+
+.input_user:focus, .input_pass:focus {
+    border-color: #707070 !important; /* darker grey for border */
+    box-shadow: none !important;
+}
+
+/* Existing CSS */
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #1c1c1e; /* pastel black */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 25px;
+    color: #cfcfcf; /* pastel grey */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form_container {
+    margin-top: 50px;
+}
+
+.login_btn {
+    width: 100%;
+    background: #4d4d4f; /* pastel grey */
+    color: white !important;
+}
+
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input-group-text {
+    background: #4d4d4f !important; /* pastel grey */
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #4d4d4f !important; /* pastel grey */
+}
+
+.title {
+    color: #cfcfcf; /* pastel grey */
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Additional CSS */
+body {
+    background-color: #2c2c33 !important; /* pastel grey */
+    color: #cfcfcf !important; /* pastel grey */
+}
+
+.navbar {
+    background-color: #1c1c1e !important; /* pastel black */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #cfcfcf !important; /* pastel grey */
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff !important; /* white */
+}
+
+.container h1 {
+    color: #cfcfcf; /* pastel grey */
+}
